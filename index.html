@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>自己紹介HP_北野聡太</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+<header>
+    <div>
+        <nav id="menubar">
+            <ul>
+                <li><a href="#career">経歴</a></li>
+                <li><a href="#product">過去の受注案件</a></li>
+                <li><a href="#contact">問い合わせ</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+
+</header>
+
+
+<div id="header-word">
+    <h1>自己紹介HP<p>北野聡太</p></h1>
+</div>
+
+
+<div id="container" role="main">
+    <div><section id="career"><h2>経歴</h2></section></div>
+    <div><section id="product"><h2>過去の受注案件</h2></section></div>
+    <div><section id="contact"><h2>問い合わせ</h2><p></p>
+    <form action="index.html" method="post" name="mail_form" onSubmit="ButtonClick()">
+
+        <div>
+            名前 : <input type="text" name="your_name" >
+        </div>
+
+        <div>
+            電話番号 : <input type="tel" name="tel_num">
+        </div>
+
+        <div>
+            メールアドレス : <input type="email" name="mail_address" >
+        </div>
+        
+        <div>
+            お問い合わせ内容 : <p></p>
+            <textarea type="text" name="contents" ></textarea>
+        </div>
+        
+        <input type="submit" value="送信" >
+        
+        
+        
+    </form>
+    
+    </section></div>
+
+</div>
+
+<script type="text/javascript" src="js.js"></script>
+
+</body>
+</html>
