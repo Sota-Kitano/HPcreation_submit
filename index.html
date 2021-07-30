@@ -31,30 +31,47 @@
 
 
 <div id="container" role="main">
-    <div><section id="career"><h2>経歴</h2></section></div>
-    <div><section id="product"><h2>過去の受注案件</h2></section></div>
-    <div><section id="contact"><h2>問い合わせ</h2><p></p>
+    <div>
+        <section id="career">
+            <h2>経歴</h2>
+            本文
+        </section>
+    
+    
+    </div>
+    <div>
+        <section id="product">
+            <h2>過去の受注案件</h2>
+            本文
+        </section>
+    </div>
+    <div>
+        <section id="contact">
+            <h2>問い合わせ</h2>
+            <p></p>
     <form action="index.html" method="post" name="mail_form" onSubmit="ButtonClick()">
 
-        <div>
+        <div id="name">
             名前 : <input type="text" name="your_name" >
         </div>
 
-        <div>
+        <div id="tel">
             電話番号 : <input type="tel" name="tel_num">
         </div>
 
-        <div>
+        <div id="mail">
             メールアドレス : <input type="email" name="mail_address" >
         </div>
         
-        <div>
-            お問い合わせ内容 : <p></p>
-            <textarea type="text" name="contents" ></textarea>
+        <div id="text">
+            お問い合わせ内容 : 
         </div>
-        
-        <input type="submit" value="送信" >
-        
+
+        <div id="textarea">
+            <textarea  type="text" name="contents" rows="10" cols="40" wrap="hard"></textarea>        
+        </div>
+
+        <input id="submit" type="submit" value="送信" >
         
         
     </form>

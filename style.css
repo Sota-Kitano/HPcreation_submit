@@ -82,18 +82,47 @@ header {
 	width: 80%;
     background: rgba(255, 255, 255, 0.7);
 	margin: 100px 10%; 
+	padding: 20px;
 }
 #container #product {
 	height: 500px;
 	width: 80%;
     background: rgba(255, 255, 255, 0.7);
 	margin: 100px 10%; 
+	padding: 20px;
 }
 #container #contact {
 	height: 500px;
 	width: 80%;
 	background: rgba(255, 255, 255, 0.7); 
 	margin: 100px 10%;
+	padding: 20px;
+	line-height: 30px;
+}
+#container #contact #name{
+	padding: 20px;
+	text-align: left;
+
+}
+#tel{
+	padding: 20px;
+	text-align: left;
+}
+#mail{
+	padding: 20px;
+	text-align: left;
+
+}
+#text{
+	padding: 20px;
+	text-align: top;
+	float: left;
+}
+#textarea{
+	float: left;
+}
+#container #submit{
+	display: block;
 }
 #contactContent {
     resize: both;
