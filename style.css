@@ -1,7 +1,6 @@
 html{
     scroll-behavior: smooth;
 }
-
 body {
     background-image: url("images/header_img.JPG");
     background-repeat: no-repeat;
@@ -44,13 +43,10 @@ header {
 	justify-content: center;
 	align-items: center;
 }
-
 #menubar li a:hover {
 	color: #38b48b;	
     background-color: rgb(116, 116, 116);
 }
-
-		
 #header-word {
     position: fixed;
     top: 0;
@@ -68,7 +64,6 @@ header {
         font-size: 50px;
         color: #000000;
 }
-
 #container {
     position: relative;
     top: 100vh;
@@ -118,9 +113,6 @@ header {
 	text-align: top;
 	float: left;
 }
-/* #textarea{
-	float: left;
-} */
 #submit{
 	display: block;
 }
