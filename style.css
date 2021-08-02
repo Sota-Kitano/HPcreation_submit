@@ -10,7 +10,7 @@ body {
 }
 header {
 	width: 100%;
-	height: 15vh;
+	height: 80px;
 	color: #1d1d1d;
 	background: rgba(255, 255, 255, 0.4);
 	position: fixed;
@@ -39,7 +39,7 @@ header {
 	width: 140px;	
 	color: #000;
 	border-bottom: 2px solid transparent;	
-	padding-bottom: 7px;	
+	padding-bottom: 2px;	
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -66,7 +66,7 @@ header {
         transform: translate(-50%,-50%);
         letter-spacing: 10px;
         font-size: 50px;
-        color: #e4e4e4;
+        color: #000000;
 }
 
 #container {
@@ -118,10 +118,10 @@ header {
 	text-align: top;
 	float: left;
 }
-#textarea{
+/* #textarea{
 	float: left;
-}
-#container #submit{
+} */
+#submit{
 	display: block;
 }
 #contactContent {
